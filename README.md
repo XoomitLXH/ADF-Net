@@ -81,7 +81,10 @@ pip install -r requirements.txt
 ### 2️⃣ Data Preparation
 
 1. Download the following datasets:
-
+- [NH-HAZE](https://data.vision.ee.ethz.ch/cvl/ntire20/nh-haze/)
+- [Dense-HAZE](https://data.vision.ee.ethz.ch/cvl/ntire19//dense-haze/)
+- [I-HAZE](https://data.vision.ee.ethz.ch/cvl/ntire18//i-haze/)
+- [O-HAZE](https://data.vision.ee.ethz.ch/cvl/ntire18//o-haze/)
 - [StateHaze1k](https://github.com/StateHaze/StateHaze1k)
 
 2. Organize your datasets in the following structure (you can adapt to your own paths as needed):
