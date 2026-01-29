@@ -11,7 +11,6 @@ ADF-Net is a deep learning network for **single image dehazing**, designed to ef
 - Asymmetric **dual-encoder** with color–structure prior for robust feature extraction  
 - **Physics-guided prediction head (PPH)** for accurate atmospheric light and transmission estimation  
 - **Tri-feature attention fusion decoder (TAF)** for effective multi-branch feature fusion  
-- Competitive **PSNR / SSIM / CIEDE2000** on multiple dehazing benchmarks  
 
 ---
 
