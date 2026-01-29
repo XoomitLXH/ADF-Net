@@ -89,14 +89,14 @@ pip install -r requirements.txt
 ```text
 ADF-Net/
 ├── datasets_train/
-│   ├── Middleburry/
+│   ├── NH-HAZE/
 │   │   ├── hazy/          # Hazy images
 │   │   └── clean/         # Ground truth clear images
 │   ├── I-HAZY/
 │   ├── O-HAZY/
 │   └── ...
 ├── datasets_test/
-│   ├── Middleburry/
+│   ├── NH-HAZE/
 │   │   ├── hazy/          # Hazy images
 │   │   └── clean/         # Ground truth clear images
 │   ├── I-HAZY/
@@ -119,7 +119,7 @@ Example training command (Middleburry-style data, single GPU):
 python train_ADF.py \
   -learning_rate 1e-4 \
   -train_batch_size 4 \
-  -train_epoch 20000 \
+  -train_epoch 30000 \
   --type 3 \
   --gpus 0
 ```
