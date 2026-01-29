@@ -67,8 +67,7 @@ pip install -r requirements.txt
 ### Data Preparation
 
 1. Download the following datasets:
-- [RESIDE](https://sites.google.com/view/reside-dehaze-datasets/reside-v0)
-- [HAZE4K](https://github.com/liuye123321/DMT-Net)
+
 - [StateHaze1k](https://github.com/StateHaze/StateHaze1k)
 
 2. Organize the dataset structure as follows:
